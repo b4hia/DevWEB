@@ -1,0 +1,82 @@
+body{
+    display: block;
+    background-image: url(imagens/fundo2.png);
+}
+
+.cabeçalho > img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-left: 14.8%;
+}
+
+.links {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: -2%;
+    left: 75%; 
+    display: block;
+}
+
+.texto1 > h2 {
+    margin-left: 14.8%;
+
+}
+
+.texto1 > p {
+    margin: auto;
+    margin-left: 14.8%;
+    width: 1000px;
+}
+
+.texto2 {
+    margin: auto;
+    margin-left: 14.8%;
+    width: 1000px;
+    list-style: decimal;
+}
+.objetivos {
+    margin: auto;
+    margin-left: 14.8%;
+    width: 1000px;
+}
+
+.linha {
+    margin-left: 14.8%;
+}
+
+.rodape > h4 {
+    margin-top: 4%;
+    text-align: center;
+ }
+
+.contato {
+    display: block;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-left: 14.8%;
+}
+
+#e{
+   width: 100%;
+   height: 30%;
+}
+   
+#a{
+   width: 100%;
+   height: 30%;
+}
+
+#d{
+   width: 93%;
+   height: 40px;
+}
+
+#en{
+    width: 50px;
+    height: 20px;
+}
+.enviar {
+    margin-top: 5px;
+}
