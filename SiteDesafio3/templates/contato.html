@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block titulo %}
+    <title>Contato UNES</title>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/estilo1.css">
+{% endblock %}
+
+{% block conteudo %}
+<!--body-->
+<!--txt-->
+<div class="contato">
+    <h2>Entre em contato</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, cumque fugiat explicabo aliquam exercitationem recusandae.</p>
+    <hr> 
+</div>
+<style>
+    section {
+        display: flex;
+        padding-left: 15%;
+        justify-content: 0px 500px 0px 2500px;;
+    }
+
+    form div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2px;
+    }
+
+ 
+</style>
+<section>
+    <form action="/contato" method="post">
+        <div class="email">
+            <label>Seu e-mail:</label>
+            <input type="email" id="e" name="email" required>
+        </div>
+        <div class="assunto">
+            <label>Assunto:</label>
+            <input type="text" id="a" name="assunto">
+        </div>
+        <div class="desc">
+            <label>Descrição:</label>
+            <input type="text" id="d" name="desc" required>
+        </div>
+        <div class="enviar">
+            <input type="submit" id="en" value="Enviar">
+        </div>
+
+    </form>
+</section>
+{% endblock %}
