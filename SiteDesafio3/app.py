@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 app.config['MYSQL_Host'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'gabriel'
-app.config['MYSQL_DB'] = 'fatec'
+app.config['MYSQL_PASSWORD'] = 'fatec'
+app.config['MYSQL_DB'] = 'unes'
 
 mysql = MySQL(app)
 
@@ -32,7 +32,7 @@ def contato():
 
         cur.close()
 
-        return 'Concluído'
+        return 'Feito!'
     else:
         return render_template("contato.html")
 
