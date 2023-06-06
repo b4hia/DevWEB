@@ -16,3 +16,6 @@ def contact():
 @app.route("/quemsomos")
 def about():
     return render_template('quemsomos.html')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
